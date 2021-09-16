@@ -1,5 +1,5 @@
 # Quantitative Methods Project
----
+
 ### Introduction
 This repository contains the collected work of a group econometrics project, undertaken as part of my undergraduate degree. For the project, we were tasked with formulating a research question relating to the possible causal effect of a policy intervention, collecting the relevent data, and producing a statistical inference model (in this case an OLS regression model) in an attempt to answer the question of whether a causal effect exists.
 <br/>
