@@ -32,6 +32,6 @@ Our methodology can be summarised as a multi-state, multi-period, difference-in-
 <br/>
 Our first model is a simple regression of the dependent variable against the legal variable, with the regression coefficient as our output. In the second model we include variables to represent state-fixed effects and time-fixed effects in order to control for any variation between states and across time that aren’t related to the policy, and a variable to control for state-specific time-trends. In the final model, we include multiple different control variables that we believe to be correlated with the dependent variable in question. Thus, we defined the models as follows:
 
-$$Y=\beta_{0}+\beta_{1}LEGAL+e $$
+$Y=\beta_{0}+\beta_{1}LEGAL+e $
 $$Y=\beta_{0}+\beta_{1}LEGAL+\beta_{2}STATE+\beta_{3}YEAR+\beta_{4}STATE:YEAR+e $$
 $$Y=\beta_{0}+\beta_{1}LEGAL+\beta_{2}STATE+\beta_{3}YEAR+\beta_{4}STATE:YEAR+\beta_{5}CONTROL_{1}+...+\beta_{n}CONTROL_{n}+e $$
