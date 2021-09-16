@@ -24,3 +24,9 @@ The data for the project was collated from multiple sources, with the key variab
 * Population density
 * Median income
 * Unemployment rate
+
+### Methodology
+
+Our methodology can be summarised as a multi-state, multi-period, difference-in-difference (DiD) model. To reflect the staggered rollout of the policy, we rely on the creation of the ‘legal’ variable, so as to incorporate all groups into a single model; this reflects varying intensity of the treatment over time, taking a value between zero and one, a group not exposed to the policy whatsoever being attributed zero, and a group fully exposed to the policy being given a value of one. As our data is recorded annually, it has sometimes been necessary to attribute a value between zero and one, reflecting the fact that the policy may only have been brought into effect partway through the year, with the policy varying in intensity in a given year as a result. 
+<br/>
+Our first model is a simple regression of the dependent variable against the legal variable, with the regression coefficient as our output. In the second model we include variables to represent state-fixed effects and time-fixed effects in order to control for any variation between states and across time that aren’t related to the policy, and a variable to control for state-specific time-trends. In the final model, we include multiple different control variables that we believe to be correlated with the dependent variable in question.
